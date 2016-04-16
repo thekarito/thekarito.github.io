@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+/*******************************BLOQUE CABECERA***********************************/
+body{
+    /*background-color: #F7F7F7;*/
+    background-image: url("../images/fondo/fondo-footer2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+}
+.block1{ margin-top: 20px; margin-bottom: 10px; }
+#titulpag{  font-family: Oswald, serif; font-size: 64px;  -webkit-animation: text_fd 5s infinite alternate;  animation: text_fd 5s infinite alternate;  color:#595959;  text-shadow: 4px -4px 0 #dadada;  }
+#autor{ font-weight: normal; font-family: Dancing Script, serif; font-size: 32px; color: #4385F7; margin-top:-35px; }
+#autor b{ font-weight: normal; border-bottom: 1px solid #dadada; padding: 0 80px 0 80px;}
+ul{ list-style: none;  margin-top:-20px; margin-left: 0;}
+#descrip_titul li{font-family: Raleway, serif; color:#595959; font-size: 14px;}
+
+/***********************************CONTENIDO*************************************/
+.descrip li{font-family: Raleway, serif; color:#999999; font-size: 14px;}
+.sub_titulo{ font-family: Raleway, serif; font-size: 26px; color:#595959;  margin: 20px 0 20px 0;}
+.block_bl{ border-right: 1px solid #dadada;}
+.block_images{ background: rgba(255,255,255, 0.7); border-bottom: 4px solid #ffffff; border-top: 4px solid #ffffff;}
+.block_images li{ margin-top: 5px; }
+.block_images:hover{ border-bottom: 4px solid #7CAAF9; border-top: 4px solid #7CAAF9; -webkit-transition: all 100ms ease-out;  -moz-transition: all 100ms ease-out;  -ms-transition: all 100ms ease-out;  -o-transition: all 100ms ease-out;  transition: all 100ms ease-out;}
+.bloque_developWEB{ border-bottom: 1px solid #dadada;}
+.list_descripcion{margin-top:10px;}
+.list_descripcion{margin-top:-1px;}
+.titul_portafolio{ font-family: Oswald, serif; color: #595959;}
+.descrip_portafolio{ font-family: Raleway, serif; color: #646464; font-size:14px;}
+
+.margin_top{ margin-top: 30px;}
+.orbit-slide-number{ display: none;}
+.orbit-timer{display:none;}
+.orbit-container .orbit-prev >span{ border-right-color: #dadada !important;}
+.orbit-container .orbit-next >span{ border-left-color: #dadada !important;}
+/************************************FOOTER***************************************/
+.footer_portafolio p{ font-family: Raleway, serif; font-size: 14px !important; color:#595959; margin-top: 30px;}

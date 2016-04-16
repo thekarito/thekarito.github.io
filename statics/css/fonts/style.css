@@ -1,0 +1,334 @@
+#cuerpo_login{
+	background-image: url("../images/fondos/fondo.jpg");
+}
+@font-face {
+	font-family: Lato-Bla;
+	src:url(../fonts/LatoOFL/Lato-Bla.ttf) format('truetype');
+}
+@font-face {
+	font-family: Lato-Lig;
+	src:url(../fonts/LatoOFL/Lato-Lig.ttf) format('truetype');
+}
+@font-face {
+	font-family: Lato-Reg;
+	src:url(../fonts/LatoOFL/Lato-Reg.ttf) format('truetype');
+}
+@font-face {
+	font-family: Oswald;
+	font-style: normal;
+	font-weight:normal;
+	src:url(../fonts/Oswald.woff) format('woff');
+}
+.pie_pag a{ color: #333333 !important;  }
+.has-tip { font-weight: normal !important;}
+.obliga{ color: #CD1F21;}
+#tipoContSelect,#tipo_persona,#tipoAsociacion,#edoSelect,#tipoContSelectReport,#estatuSelectReport{ border-bottom: 0px dotted #CCCCCC !important;}
+.transparent{color: transparent;}
+::-webkit-input-placeholder { color: #333333 !important; }
+:-moz-placeholder { color: #333333 !important; }
+::-moz-placeholder { color: #333333 !important; }
+:-ms-input-placeholder { color: #333333 !important; }
+.befoId::before {
+	content: "\25BA " !important;
+	color: #F04124 !important;
+}
+a:visited{
+	color: #595959 !important;
+}
+.befoId2,.befoId {
+	color: #000000 !important;
+	text-transform: uppercase;
+}
+.topinfo{border-bottom: 1px solid #dadada;}
+.text_importante{font-family: Lato-Lig, sans-serif; font-size: 14px; background: url("../images/fondos/fondo-1.jpg");}
+.text_importante b{ font-size: 16px; color: #CD1F21;}
+.text_importante span{ font-size: 16px !important; color: #CD1F21 !important;}
+.textarea{color:#333;}
+.requerido{color: #F04124;}
+.menuIni{color:#ffffff !important;}
+.ui-state-error{font-family: Lato-Lig, sans-serif; font-size: 14px;}
+#claveDescrip{background: #dadada !important;}
+/********************************LOGIN****************************************/
+#formPTF{
+	margin-top: 10px;
+}
+.text-log{
+	font-family: Oswald,sans-serif;
+	font-size: 24px;
+	color: #054F74;
+	margin-bottom: 6px;
+	line-height: 25px;
+}
+.text-log2{
+	font-family: Oswald,sans-serif;
+	font-size: 20px;
+	color: #054F74;
+	margin-bottom: 6px;
+	line-height: 25px;
+}
+.textDescrip{
+	font-family: Lato-Lig,sans-serif;
+	font-size: 15px;
+	color:#999;
+}
+.textDescripPlanilla{
+	font-family: Lato-Lig,sans-serif;
+	font-size: 20px;
+	color:#999;
+	margin-bottom: 10px;
+}
+#formPTF label{
+	font-family: Oswald,sans-serif;
+	font-size: 18px;
+	color: #525252;
+}
+#cellPTF{
+	border-top: 10px solid #FFC92A;
+	padding-top:5px;
+    border-bottom: 1px dotted #dadada;
+}
+
+button, .button{
+	 background: #333333 !important;
+	 color:#fff !important;
+	 font-family: Lato-Lig,sans-serif !important;
+ }
+.bottomForm{
+	background: #054F74 !important;
+	color:#fff !important;
+	font-family: Lato-Lig,sans-serif !important;
+}
+.bottomForm:hover{
+	opacity: 0.9;
+	-moz-opacity: 0.9;
+	fill-opacity: 0.9;
+	-webkit-transition: all 500ms ease-out;
+	-moz-transition: all 500ms ease-out;
+	-ms-transition: all 500ms ease-out;
+	-o-transition: all 500ms ease-out;
+	transition: all 500ms ease-out;
+}
+.button:hover{
+	opacity: 0.9;
+	-moz-opacity: 0.9;
+	fill-opacity: 0.9;
+	-webkit-transition: all 500ms ease-out;
+	-moz-transition: all 500ms ease-out;
+	-ms-transition: all 500ms ease-out;
+	-o-transition: all 500ms ease-out;
+	transition: all 500ms ease-out;
+}
+.enlaceReg{
+	font-family: Oswald,sans-serif;
+	font-size: 18px;
+	color: #F04124;
+}
+.enlaceReg b:hover{
+	color:#333;
+	-webkit-transition: all 500ms ease-out;
+	-moz-transition: all 500ms ease-out;
+	-ms-transition: all 500ms ease-out;
+	-o-transition: all 500ms ease-out;
+	transition: all 500ms ease-out;
+}
+/****REGISTRO DE USUARIOS****/
+.fa-info{
+	color:#FFC107;
+	font-size: 30px !important;
+	margin-right: 5px;
+}
+.button_reg{
+	padding: 10px !important;
+}
+/******ENLACES MANUAL Y BOTTON DE RECUPERACION DE CLAVE*****/
+.enlaceReg2{
+    font-family: Oswald,sans-serif;
+    font-size: 18px;
+    color: #333 !important;
+}
+.enlaceReg2:hover{
+    color:#F04124 !important;
+    -webkit-transition: all 500ms ease-out;
+    -moz-transition: all 500ms ease-out;
+    -ms-transition: all 500ms ease-out;
+    -o-transition: all 500ms ease-out;
+    transition: all 500ms ease-out;
+}
+#modalRecuperacion,#confirmAddPagoMN,#confirmAddPagoTF{
+    font-size: 14px;
+    font-family: Lato-Lig,sans-serif;
+    color:#4d4d4d;
+    background-image: url("../images/fondos/fondo-1.jpg");
+}
+.titulRegUsers{
+    font-family: Oswald, sans-serif;
+    font-size: 20px;
+    color:#595959;
+    border-bottom: 1px solid #dadada;
+}
+#msjExito{
+    font-family: Oswald,sans-serif;
+    font-size: 18px;
+    color:#fff;
+}
+/************************************************************PRINCIPAL***********************************************************************/
+.ir-arriba { display:none;  padding:20px;  background:#024959;  font-size:20px;  color:#fff; cursor:pointer;  position: fixed;  right:20px;  z-index: 4000;  bottom:5px;  }
+.fa-arrow-up{ color:#ffffff !important; font-weight: normal !important;}
+/******FORMULARIO GRIB******/
+.colorAviso{color:#CD1F21;}
+.ui-jqgrid-labels{position: relative; left:0px;}
+.ui-jqgrid .ui-jqgrid-htable th div{font-size: 14px !important;}
+.ui-jqdialog-title{font-size: 14px !important;}
+.CaptionTD{font-size: 14px !important;}
+.ui-pg-table{position: relative; top:-0px; width:300px !important; table-layout:none !important;}
+.ui-pg-selbox{color:#333 !important; display: none !important;}
+#paginadorContribuyente_center{white-space: pre; width: 250px !important;}
+.ui-paging-info{position: relative; top:-0px;}
+.ui-pg-button {font-size: 13px !important;}
+.ui-widget-content{font-size: 13px !important;}
+#tipPersona{width:150px;}
+.ui-pg-input{display: none !important;}
+.fm-button{font-size: 13px !important;}
+.ui-separator{display: none !important;}
+#first_paginadorContribuyente{display: none !important;}
+#prev_paginadorContribuyente{display: none !important;}
+#next_paginadorContribuyente{display: none !important;}
+#last_paginadorContribuyente{display: none !important;}
+
+/******BLOQUE MENU Y BIENVENIDO******/
+.menu_f1{cursor:pointer;}
+.bloqueA{
+	padding-top: 10px;
+	border-bottom: 1px solid #dadada;
+}
+.text_biev{
+	font-family: Oswald,sans-serif;
+	font-size: 18px;
+	color: #525252;
+}
+.iconUsers{
+	font-size: 24px !important;
+	color:#FFC107;
+}
+.textDescripEnter{
+	font-family: Lato-Lig,sans-serif;
+	font-size: 15px;
+	color:#595959;
+}
+.formRegUsers{
+	font-family: Lato-Lig,sans-serif;
+	font-size: 14px;
+	color:#595959;
+}
+.bottomMenu{
+	padding: 15px;
+	background: #f2f2f2;
+	font-family: Lato-Lig,sans-serif;
+	font-size: 18px;
+	color:#595959;
+	border-left: 14px solid #054F74;
+	position: relative;
+	top: -10px;
+}
+.bottomMenu1{
+	padding: 15px;
+	background: #333333;
+	font-family: Lato-Lig,sans-serif;
+	font-size: 18px;
+	color:#ffffff;
+}
+.iconsMenu:hover{
+	background: #333 !important;
+	color:#ffffff !important;
+}
+.menu_f1 p{margin: 0 0 5px 0 !important;}
+.menu0{ margin-bottom: 15px;}
+.menu1{border-left: 14px solid #1D9D73;}
+.menu2{border-left: 14px solid #054F74; position: relative;}
+.menu3{border-left: 14px solid #FFC107; position: relative;}
+.menu4{border-left: 14px solid #007095; position: relative;}
+.menu5{border-left: 14px solid #FB4C2F; position: relative;}
+.menu6{border-left: 14px solid #5D4885; position: relative;}
+.menu7{border-left: 14px solid #CD1F21; position: relative;}
+.menu8{border-left: 14px solid #1A8C68; position: relative;}
+.menu9{border-left: 14px solid #886030; position: relative;}
+.menu10{border-left: 14px solid #FF715B; position: relative;}
+.menu11{border-left: 14px solid #3B5998; position: relative; }
+.iconsMenu{  font-size: 24px !important;  margin-right: 10px;}
+.menu1:hover{  background: #333 !important;  color:#fff !important;  }
+.menu2:hover{  background: #333 !important;  color:#fff !important;  }
+.menu3:hover{  background: #333 !important;  color:#fff !important;  }
+.menu4:hover{  background: #333 !important;  color:#fff !important;  }
+.menu5:hover{  background: #333 !important;  color:#fff !important;  }
+.menu6:hover{  background: #333 !important;  color:#fff !important;  }
+.menu7:hover{  background: #333 !important;  color:#fff !important;  }
+.menu8:hover{  background: #333 !important;  color:#fff !important;  }
+.menu9:hover{  background: #333 !important;  color:#fff !important;  }
+.menu10:hover{  background: #333 !important;  color:#fff !important;  }
+.menu11:hover{  background: #333 !important;  color:#fff !important;  }
+.border_menu{border-right:1px solid #dadada;}
+.seccionConsult{
+	background: #595959;
+    color: #ffffff;;
+	font-family: Lato-Lig,sans-serif;
+	padding:5px;
+	font-weight: bold;
+    text-transform: uppercase;
+}
+.text-default{
+    font-size:18px;
+    color:#333333;
+    font-family: Oswald,serif;
+    font-weight: normal;
+}
+/*********CONSULTAS**********/
+#confirmAddRegistro{font-size: 14px !important;}
+.notifForm{color: #ffffff; font-family: Lato-Lig,sans-serif; background: #F04124; padding: 5px 5px 5px 10px; font-size: 14px; font-weight: bold; border: 1px solid #CD1F21;}
+.verListados{ font-family: Lato-Lig,sans-serif;border-top: 1px solid #dadada; border-bottom: 1px solid #dadada; padding-top:10px; padding-bottom:10px; background: url("../images/fondos/fondo.jpg")}
+.bottomCambioFecha{font-family: Lato-Lig,sans-serif;  background: #054F74; color:#ffffff; padding: 10px 5px 0 0;
+    -webkit-box-shadow: inset 2px 2px 45px -21px rgb(2, 73, 89);
+    -moz-box-shadow: inset 2px 2px 45px -21px rgb(2, 73, 89);
+    box-shadow: inset 2px 2px 45px -21px rgb(2, 73, 89);
+    border-radius: 2px;
+}
+/********AVISO SANCIONES********/
+.checkAviso{
+	font-family: Lato-Lig, sans-serif;
+	font-size: 16px;
+	color:#595959;
+}
+.checkboxAviso{
+	padding-right: 30px;
+}
+.border_div{
+	border-top: 1px solid #dadada;
+}
+.border_bottom{ border-bottom: 1px solid #dadada;}
+/*******SANCIONES*************/
+.bloque_sancion{padding-top: 20px; border-top: 1px solid #dadada;}
+.ui-jqdialog-content .CaptionTD{ width: 140px !important;}
+.active a{
+	background: #054F74 !important;
+	color:#FFFFFF !important;
+	font-weight: normal !important;
+}
+
+/**************CONFIGURACION****************/
+.accordion-navigation a{
+	font-family: Lato-Lig,sans-serif !important;
+	font-size: 15px !important;
+	font-weight: normal !important;
+}
+.tab-title{
+	border-bottom: 2px solid #ffffff !important;
+	border-left: 2px solid #ffffff !important;
+}
+/******FOTTER***********/
+.pie_pag{
+	padding-top: 40px;
+}
+.text-footer{
+	font-family: Lato-Lig,sans-serif;
+	font-size: 14px;
+	color:#595959;
+}
